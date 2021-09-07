@@ -3,8 +3,8 @@ import styled from 'styled-components';
 import spinner from '../pokemon/spinner.gif';
 
 const Sprite = styled.img`
-    width: 5em;
-    height: 5em;
+    width: 10em;
+    height: 10em;
     display: none;
     `;
 
