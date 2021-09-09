@@ -1,10 +1,13 @@
 .App {
-    padding-top: 0rem;
+    background-position: center;
+    background-color: rgb(207, 207, 207);
+    padding-top: 7rem;
     min-height: 100vh;
 }
 
 .navbar {
-    background-color: #ef5350 !important;
+    position: fixed;
+    background-color: #195790 !important;
 }
 
 /* .container img {

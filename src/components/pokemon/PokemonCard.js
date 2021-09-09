@@ -3,8 +3,8 @@ import styled from 'styled-components';
 import spinner from '../pokemon/spinner.gif';
 
 const Sprite = styled.img`
-    width: 10em;
-    height: 10em;
+    width: 9em;
+    height: 9em;
     display: none;
     `;
 
@@ -50,7 +50,7 @@ export default class PokemonCard extends Component {
                         <h6 className="card-title">
                         {this.state.pokemonIndex}
                         {this.state.imageLoading ? (
-                            <img alt="" src={spinner} style={{width: '5em', height: '5em'}} className="card-img-top rounded mx-auto d-block mt-2"></img>
+                            <img alt="" src={spinner} style={{width: '9em', height: '9em'}} className="card-img-top rounded mx-auto d-block mt-2"></img>
                         ) : null}
                         <Sprite 
                         className="card-img-top rounded mx-auto mt-2"
