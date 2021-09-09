@@ -1,5 +1,6 @@
 .App {
     background-position: center;
+    background-position: fixed;
     background-color: rgb(207, 207, 207);
     padding-top: 7rem;
     min-height: 100vh;
