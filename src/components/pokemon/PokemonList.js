@@ -26,7 +26,7 @@ this.setState({pokemon: res.data['results']});
             ))}
                         </div>
                         ) : (
-                        <h1>Loading...</h1>
+                        <h1>Please Wait...</h1>
                         )}
                         </React.Fragment>
 
